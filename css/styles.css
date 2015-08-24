@@ -333,7 +333,7 @@ section.home {
     height: auto;}
 
 img.bannerimg {
-   max-width: 100%;
+   width: 100%;
     magrin-top: 50px;
 }
 span.bannernaam {
