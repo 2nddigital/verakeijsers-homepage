@@ -350,10 +350,11 @@ span.bannernaam {
 .news { float: left;
   box-sizing: border-box; }
 .imagecarts {
-        margin: 5px 10px;
+        margin: 0;
+        padding: 0;
         border-top: dashed;
         border-bottom: dashed;
-        width: 70%;
+        width: 100%;
         height: auto;
          float: left;
   box-sizing: border-box; 
@@ -387,21 +388,28 @@ span.bannerinfo {
 ul.img-list {
   list-style-type: none;
   margin: 0;
-  padding: 5px;
-    width: 100%
- 
-}
- 
-ul.img-list li {
-  display: inline-block;
-  height: 10vw;
-  position: relative;
-  width: 24%;
-  overflow: hidden;  
+  padding: 0;
+  width: 100%;
+    height: auto;
+  display:block;
 }
 
-ul.img-list li img {width: 100%; height: auto; top: 10px;}
-li.cart {margin-right: 1%;}
+
+ul.img-list li img {
+    width: 100%; 
+    height: auto; 
+    top: 10px;
+}
+li.cart {
+    padding: 0;
+    width: calc(25vw - 15px);
+    margin: 0 5px 0 5px;
+    height: calc(20vw - 15px);
+    display: block;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
 
 
 span.text-content {
@@ -426,6 +434,10 @@ border-bottom: blue solid 0px;
 ul.img-list li:hover span.text-content {
   opacity: 1;
   border-bottom: blue solid 10px;
+}
+
+ul.img-list li:hover img{
+       
 }
 span.text-content span {
   display: table-cell;
@@ -512,4 +524,10 @@ html {
 
 .txt-center {
     text-align: center;
+}
+
+.titel-small {
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    font-size: 2em;
 }
