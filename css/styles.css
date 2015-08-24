@@ -133,13 +133,10 @@ header {
   position: fixed;
   z-index: 3;
   width: 100%;
-
-  
 }
 
 .logo {
     font-family: 'Dancing Script', cursive;
-    font-weight: 20; 
     font-size: 24pt;
     text-decoration: none;
   font-weight: bold;
