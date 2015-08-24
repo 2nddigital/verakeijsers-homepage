@@ -436,7 +436,7 @@ span.text-content span {
         background: green;
     }
     .media{
-        width: 80% !important;   
+        width: 75% !important;   
     }
 }
 
@@ -481,11 +481,18 @@ span.bannerinfo {
 
 
 .media {
-    height: auto;
     width: 100%;
-    background-color: brown;
+    background-color: #EEEEEE;
     margin: 70px auto 0 auto;
     display: block;
     position: relative;
     z-index: 1;
+    min-height: 80vh;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
