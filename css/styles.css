@@ -443,7 +443,7 @@ span.text-content span {
         background: green;
     }
     .media{
-        width: 75% !important;   
+        width: 85% !important;   
     }
 }
 
@@ -478,13 +478,17 @@ span.bannerinfo {
      padding: 1%
     
 }
+    .media{
+        width: 75% !important;   
+    }
+}
 
 /* ------------------------------------------
   
 --------------------------------------------- */ 
   
 
-}
+
 
 
 
@@ -509,7 +513,7 @@ html {
     font-family: "Dancing Script", cursive;
     font-weight: bold;
     font-size: 40pt;
-    margin: 0.1em 0;
+    margin: 0 0;
 }
 
 .txt-center {
@@ -517,15 +521,14 @@ html {
 }
 
 .content-devider {
-    border-top: dashed 1px; width: 90%; margin: 0 auto;
+    border-top: dashed 1px; 
+    width: 90%; 
+    margin: 10px auto;
 }
 
 .date {
-    width: 50px;
-    height: auto;
-    background: red;
-    text-align: center;
-    padding: 5px;
+ 
+    
 }
 
 .date-number {
@@ -534,7 +537,29 @@ html {
 }
 
 .date-month {
-    font-size: 20pt;
+    font-size: 15pt;
     line-height: 10pt;
+    text-transform: uppercase;
     
+}
+
+.media-item {
+    margin: 5px;
+}
+
+.clear {
+    clear: both;
+    content: "";
+}
+
+.media-img {
+    float: left;
+}
+
+.media-sidebar {
+    width: 50px;
+    height: auto;
+    text-align: center;
+    padding: 5px;
+    float: left;
 }
