@@ -504,7 +504,8 @@ span.text-content span {
         background: green;
     }
     .media{
-        width: 85% !important;   
+        width: 85% !important; 
+        max-width: 1500px;
     }
 }
 
