@@ -117,10 +117,7 @@ h1 {
   
 }
 
-p {
-  width: 90%;
-  margin: 0 auto;
-}
+
 
 
 /* ------------------------------------------
@@ -604,4 +601,10 @@ html {
     float: left;
     height: 100%;
     width: 50%
+}
+
+.titel-sub {
+    font-family: 'Dancing Script', cursive;
+    font-size: 28pt;
+    font-weight: bold;
 }
