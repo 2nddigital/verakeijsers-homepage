@@ -361,12 +361,52 @@ span.bannernaam {
     overflow: hidden;
     }
 
+
+
+.date-number {
+    font-size: 30pt;
+    line-height: 30pt;
+}
+
+.date-month {
+    font-size: 15pt;
+    line-height: 10pt;
+    text-transform: uppercase;
+}
+
+.media-item {
+    margin: 5px;
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+    content: "";
+}
+
+.media-img img{
+    float: left;
+    width: 100px;
+    height: auto;
+}
+
+.media-sidebar {
+    width: 50px;
+    height: auto;
+    text-align: center;
+    padding: 5px;
+    float: left;
+}
 /* ------------------------------------------
   MOBILE STYLES
 --------------------------------------------- */
 
 @media (min-width: 400px) {
-    
+ .media-img img {
+    width: 240px;
+     height: auto;
+ 
+}   
     
 .banner {
     max-height: auto;
@@ -470,6 +510,7 @@ span.text-content span {
     }
 }
 
+
 /* ------------------------------------------
   DESKTOP STYLES
 --------------------------------------------- */
@@ -555,39 +596,12 @@ html {
     margin: 10px auto;
 }
 
-.date {
- 
-    
-}
 
-.date-number {
-    font-size: 30pt;
-    line-height: 30pt;
-}
 
-.date-month {
-    font-size: 15pt;
-    line-height: 10pt;
-    text-transform: uppercase;
-}
-
-.media-item {
-    margin: 5px;
-}
-
-.clear {
-    clear: both;
-    content: "";
-}
-
-.media-img {
+.media-info {
+    padding: 10px;
+    background: red;
     float: left;
-}
-
-.media-sidebar {
-    width: 50px;
-    height: auto;
-    text-align: center;
-    padding: 5px;
-    float: left;
+    height: 100%;
+    width: 50%
 }
