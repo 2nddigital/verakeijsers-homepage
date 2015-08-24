@@ -114,7 +114,7 @@ section {
 }
 
 h1 {
-  margin-bottom: .5em;
+  
 }
 
 p {
@@ -405,6 +405,7 @@ li.cart {margin-right: 1%;}
 
 
 span.text-content {
+    
   background: rgba(0,0,0,0.5);
   color: white;
   cursor: pointer;
@@ -508,8 +509,32 @@ html {
     font-family: "Dancing Script", cursive;
     font-weight: bold;
     font-size: 40pt;
+    margin: 0.1em 0;
 }
 
 .txt-center {
     text-align: center;
+}
+
+.content-devider {
+    border-top: dashed 1px; width: 90%; margin: 0 auto;
+}
+
+.date {
+    width: 50px;
+    height: auto;
+    background: red;
+    text-align: center;
+    padding: 5px;
+}
+
+.date-number {
+    font-size: 30pt;
+    line-height: 30pt;
+}
+
+.date-month {
+    font-size: 20pt;
+    line-height: 10pt;
+    
 }
