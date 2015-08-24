@@ -133,6 +133,10 @@ header {
   position: fixed;
   z-index: 3;
   width: 100%;
+<<<<<<< HEAD
+=======
+    top: 0;
+>>>>>>> origin/master
 }
 
 .logo {
@@ -481,4 +485,7 @@ span.bannerinfo {
     width: 100%;
     background-color: brown;
     margin: 70px auto 0 auto;
+    display: block;
+    position: relative;
+    z-index: 1;
 }
