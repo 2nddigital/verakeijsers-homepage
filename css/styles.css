@@ -133,10 +133,7 @@ header {
   position: fixed;
   z-index: 3;
   width: 100%;
-<<<<<<< HEAD
-=======
-    top: 0;
->>>>>>> origin/master
+ top:0;   
 }
 
 .logo {
