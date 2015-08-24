@@ -133,7 +133,12 @@ header {
   position: fixed;
   z-index: 3;
   width: 100%;
+<<<<<<< HEAD
  top:0;   
+=======
+    top: 0;
+
+>>>>>>> origin/master
 }
 
 .logo {
@@ -339,7 +344,13 @@ img.bannerimg {
    max-width: 100%
     
 }
-span.bannernaam {visibility: hidden; display: none;}
+span.bannernaam {
+    visibility: hidden; 
+    display: none; 
+    font-family: 'Dancing Script', cursive; 
+    font-weight: bold;
+    font-size: 50px;}
+
 .info {width: 100%}
 .news { float: left;
   box-sizing: border-box; }
@@ -364,7 +375,10 @@ span.bannernaam {visibility: hidden; display: none;}
     max-height: auto;
 }
 
+img.bannerimg {
+   magrin-top: 50px;
     
+}    
 
 span.bannerinfo {
     position: absolute; 
@@ -451,21 +465,21 @@ span.text-content span {
        visibility: visible;
         display: inherit;
     position: absolute; 
-    top: 20vw;
+    top: 35%;
     width: 20%;  
     left: 78%;
     background: white;
-    padding: 1%;
-        font-size: 200%;
+    padding: 5px 1% 5px 1%;
+        
     }
 
 span.bannerinfo {
     position: absolute; 
-    top: 25vw;
+    top: 50%;
     width: 20%;  
     left: 78%;
     background: white;
-    padding: 1%;
+     padding: 1%
     
 }
 
