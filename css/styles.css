@@ -237,8 +237,8 @@ margin: auto;
   color: #fff;
   width: 100%;
   float: left;
-    -webkit-transition: linear 0.2s; /* For Safari 3.1 to 6.0 */
-    transition: linear 0.2s;
+    -webkit-transition: background 300ms ease-in-out; /* For Safari 3.1 to 6.0 */
+    transition: background 300ms ease-in-out;
 }
 
 
