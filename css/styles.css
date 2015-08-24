@@ -133,8 +133,7 @@ header {
   position: fixed;
   z-index: 3;
   width: 100%;
-
-  
+    top: 0;
 }
 
 .logo {
@@ -484,4 +483,7 @@ span.bannerinfo {
     width: 100%;
     background-color: brown;
     margin: 70px auto 0 auto;
+    display: block;
+    position: relative;
+    z-index: 1;
 }
