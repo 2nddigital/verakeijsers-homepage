@@ -426,7 +426,14 @@ span.text-content span {
   TABLET STYLES
 --------------------------------------------- */
 
-@media (min-width: 750px) {.class {background: green;}}
+@media (min-width: 750px) {
+    .class {
+        background: green;
+    }
+    .media{
+        width: 80% !important;   
+    }
+}
 
 /* ------------------------------------------
   DESKTOP STYLES
@@ -467,3 +474,10 @@ span.bannerinfo {
 }
 
 
+
+.media {
+    height: auto;
+    width: 100%;
+    background-color: brown;
+    margin: 70px auto 0 auto;
+}
