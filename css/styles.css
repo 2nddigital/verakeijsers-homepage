@@ -351,7 +351,7 @@ span.bannernaam {
   box-sizing: border-box; }
 .imagecarts {
         margin: 0;
-        padding: 0;
+        padding: 15px;
         border-top: dashed;
         border-bottom: dashed;
         width: 100%;
@@ -389,7 +389,7 @@ span.bannerinfo {
 ul.img-list {
   list-style-type: none;
   margin: 0;
-  padding: 15px;
+  padding: 0;
   width: 100%;
     height: auto;
   display:block;
@@ -411,7 +411,7 @@ ul.img-list li img {
 li.cart {
     padding: 0;
     width: calc(25% - 15px);
-    margin: 0 5px 0 5px;
+    margin: 0 7.5px 0 7.5px;
     height: calc(15vw - 15px);
     display: block;
     overflow: hidden;
@@ -546,7 +546,7 @@ html {
 .titel-small {
     font-family: "Dancing Script", cursive;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 5rem;
 }
 
 .content-devider {
