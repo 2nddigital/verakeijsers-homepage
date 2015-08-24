@@ -399,6 +399,14 @@ ul.img-list li img {
     width: 100%; 
     height: auto; 
     top: 10px;
+     -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    transform: scale(1,1);
+     -webkit-transition: -webkit-transform 2s ease-in-out;
+  -moz-transition: -moz-transform 2s ease-in-out;
+  -o-transition: -o-transform 2s ease-in-out;
+  transition: transform 2s ease-in-out;
 }
 li.cart {
     padding: 0;
@@ -437,7 +445,10 @@ ul.img-list li:hover span.text-content {
 }
 
 ul.img-list li:hover img{
-       
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
 }
 span.text-content span {
   display: table-cell;
