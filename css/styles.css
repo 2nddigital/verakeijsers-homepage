@@ -359,7 +359,6 @@ span.bannernaam {
     }
 
 
-
 .date-number {
     font-size: 30pt;
     line-height: 30pt;
@@ -372,9 +371,15 @@ span.bannernaam {
 }
 
 .media-item {
-    margin: 5px;
     width: 100%;
-    height: 160px;
+    height: auto;
+}
+
+.media-info {
+    padding-right: px;
+    margin-left: 50px;
+    height: 140px;
+    width: calc(100% - 130px);
 }
 
 .clear {
@@ -384,27 +389,44 @@ span.bannernaam {
 
 .media-img img{
     float: left;
-    width: 100px;
+    width: calc(100% - 50px);
     height: auto;
+    margin-right: 0;
 }
+
 
 .media-sidebar {
     width: 50px;
     height: auto;
     text-align: center;
-    padding: 5px;
+    margin-top: 50px;
     float: left;
 }
+
+.media-social {
+    width: 60px;
+    background: blue;
+    float: right;
+    height: auto;
+    
+    
+}
+.fb, .tw, .yt {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 71px;
+    color: white;
+}
+.fb {background: #3b5998;}
+.tw {background: #00aced;}
+.yt {background: #bb0000;}
 /* ------------------------------------------
   MOBILE STYLES
 --------------------------------------------- */
 
-@media (min-width: 400px) {
- .media-img img {
-    width: calc(320px / 1.5);
-     height: 160px;
- 
-}   
+@media (min-width: 300px) {
+  
     
 .banner {
     max-height: auto;
@@ -423,6 +445,7 @@ span.bannerinfo {
     padding: 1%;
    }
 
+    
 }
 ul.img-list {
   list-style-type: none;
@@ -507,6 +530,40 @@ span.text-content span {
         width: 85% !important; 
         max-width: 1500px;
     }
+    .media-info {
+    padding: 5px 10px;
+    background: red;
+    float: left;
+    height: 140px;
+    width: 45%;
+}
+    
+    .media-img img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+    .media-sidebar {
+    width: 50px;
+    height: auto;
+    text-align: center;
+    float: left;
+}
+    .media-social {
+    width: 50px;
+    background: blue;
+    float: right;
+    height: 150px;
+    margin-right: 15px;
+}
+    
+    .media-info {
+    padding: 5px 10px;
+    background: red;
+    
+    height: 140px;
+    width: 50%;
+}
 }
 
 
@@ -597,14 +654,7 @@ html {
 
 
 
-.media-info {
-    padding: 5px 10px;
-    background: red;
-    float: left;
-    min-height: 160px;
-    
-    width: 50%;
-}
+
 
 .titel-sub {
     font-family: 'Dancing Script', cursive;
@@ -616,21 +666,8 @@ html {
     font-style: italic;
 }
 
-.media-social {
-    width: 50px;
-    background: blue;
-    float: right;
-    height: 150px;
-    margin-right: 15px;
-}
 
-.fb, .tw, .yt {
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    line-height: 61px;
-    color: white;
-}
-.fb {background: #3b5998;}
-.tw {background: #00aced;}
-.yt {background: #bb0000;}
+
+
+
+
