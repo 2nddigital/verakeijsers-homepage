@@ -620,6 +620,17 @@ html {
     width: 50px;
     background: blue;
     float: right;
-    height: 160px;
+    height: 150px;
     margin-right: 15px;
 }
+
+.fb, .tw, .yt {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 61px;
+    color: white;
+}
+.fb {background: #3b5998;}
+.tw {background: #00aced;}
+.yt {background: #bb0000;}
