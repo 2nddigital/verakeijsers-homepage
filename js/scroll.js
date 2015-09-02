@@ -16,8 +16,7 @@
  * ============================================================= */
 
 window.smoothScroll = (function (window, document, undefined) {
-
-  'use strict';
+    'use strict';
 
   // Default settings
   // Private {object} variable
