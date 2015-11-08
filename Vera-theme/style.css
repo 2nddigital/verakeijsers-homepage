@@ -132,6 +132,8 @@ header {
   top: 0;
 }
 
+body.admin-bar > header {top: 32px;}
+
 .logo {
     font-family: 'Dancing Script', cursive;
     font-size: 24pt;
@@ -192,7 +194,9 @@ float: left;
   width: 100%;
   left: 0;
   top: 0;
+    margin-top: 40px;
 }
+
 
 .nav-collapse,
 .nav-collapse * {
@@ -330,6 +334,7 @@ float: left;
 section.home {
 
     height: auto;}
+
 
 img.bannerimg {
    width: 100%;
@@ -528,10 +533,11 @@ span.text-content span {
     .class {
         background: green;
     }
-    .media{
+    .media, section.page{
         width: 85% !important; 
         max-width: 1500px;
     }
+    
     .media-info {
     padding: 5px 10px;
     background: red;
@@ -600,7 +606,7 @@ span.bannerinfo {
      padding: 1%
     
 }
-    .media{
+    .media, section.page{
         width: 75% !important;   
     }
     .media-info {
@@ -638,10 +644,10 @@ span.bannerinfo {
 
 
 
-.media {
+.media, section.page {
     width: 100%;
     background-color: #EEEEEE;
-    margin: 70px auto 0 auto;
+    margin: 0 auto 0 auto;
     display: block;
     position: relative;
     z-index: 1;
@@ -655,11 +661,16 @@ html {
     padding: 0;
 }
 
-.titel {
+.titel, .page-title {
     font-family: "Dancing Script", cursive;
     font-weight: bold;
     font-size: 40pt;
     margin: 0 0;
+}
+.page-title {
+    
+    font-size: 70pt;
+    
 }
 
 .txt-center {
@@ -693,3 +704,9 @@ html {
 
 
 
+
+
+
+.page-content {
+    margin: 0 20px 0 20px;
+}

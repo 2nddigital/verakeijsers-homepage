@@ -3,7 +3,7 @@
 
  <section class="home" id="home">
         <div class="banner">
-            <img src="<?php get_header_image(); ?>" class="bannerimg"/>
+            <img src="<?php header_image(); ?>" class="bannerimg"/>
             <span class="bannerinfo">
                 <h1 class="titel"><?php bloginfo('name'); ?></h1>
                  <?php bloginfo('description'); ?></span> 
@@ -43,5 +43,7 @@
          </div>   
     </section>
 </div>
-<?php wp_list_pages(); ?>
+
+
+
 <?php get_footer(); ?>
